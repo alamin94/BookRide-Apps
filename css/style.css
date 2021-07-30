@@ -1,0 +1,266 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
+body {
+
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Cinzel', serif;
+
+}
+
+.container {
+    max-width: 80%;
+    background-color: #16142D;
+}
+
+.logo-area {
+    /* background-color: #29263E; */
+    padding-top: 40px;
+}
+
+.form-control-validation {
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    padding: 9px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #16142D;
+    /* background-clip: padding-box; */
+    width: 80%;
+    border: 1px solid #C99C55;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+    /* transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+}
+
+.continue_text {
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+}
+
+.heading {
+    color: #C99C55;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.bank-card {
+    padding-top: 70px;
+}
+
+.card-title {
+    color: #C99C55;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.Baron-btn-Continue {
+    /* background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%); */
+    background-color: #C99C55;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 25px;
+    border: none;
+    width: 80%;
+}
+
+.Upgrade-part {
+    margin-top: 100px;
+}
+
+/* map button css  */
+.button {
+    position: relative;
+    background-color: #16142d;
+    border: 1px solid #C99C55;
+    /* border: none; */
+    border-radius: 75px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: none;
+    border-bottom: 2px solid #9a99a3;
+    background-color: #16142C;
+}
+
+.int-text {
+    color: #C99C55;
+}
+
+
+
+.icons {
+    /* margin: 30px 0; */
+}
+
+.fab,
+.far {
+    font-weight: 900;
+    /* padding: 10px 10px; */
+    padding-bottom: 80px;
+    padding-right: 10px;
+    color: #C99C55;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    color: #C99C55;
+}
+
+/* book ride input field css here  */
+.input-item {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* details part css start here  */
+
+.btn-details {
+    position: relative;
+    background-color: #16142d;
+    border: 1px solid #C99C55;
+    /* border: none; */
+    border-radius: 75px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 134px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.details-btn-bottom {
+    background-color: #C99C55;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 25px;
+    border: none;
+}
+
+.details-btn-bottom-2 {
+    background-color: #16142D;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 25px;
+    border: 1px solid #C99C55;
+}
+
+.payment-btn-bottom {
+    background-color: #16142D;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 18px;
+    border: 1px solid #C99C55;
+}
+
+.payment-btn-bottom-2 {
+    background-color: #16142D;
+    color: white;
+    border-radius: 25px;
+    padding: 2px 35px;
+    border: 1px solid #C99C55;
+}
+
+.Ride-btn-bottom {
+    background-color: #16142D;
+    color: white;
+    border-radius: 25px;
+    padding: 2px 20px;
+    border: 1px solid #C99C55;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_part {
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-img :hover {
+    background-color: #ffffff;
+}
