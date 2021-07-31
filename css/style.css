@@ -7,10 +7,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
 
 body {
-
-    font-family: 'Rubik', sans-serif;
     font-family: 'Cinzel', serif;
+    font-family: 'Rubik', sans-serif;
 
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .container {
@@ -27,8 +33,8 @@ body {
     display: block;
     text-align: center;
     border-radius: 25px;
-    padding: 9px 25px;
-    font-size: 1rem;
+    padding: 5px 20px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 1.5;
     color: #ffffff;
@@ -79,7 +85,7 @@ body {
 .Baron-btn-Continue {
     /* background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%); */
     background-color: #C99C55;
-    color: white;
+    color: rgb(22, 21, 21);
     border-radius: 25px;
     padding: 9px 25px;
     border: none;
@@ -91,13 +97,26 @@ body {
 }
 
 /* map button css  */
-.button {
+.map-one-way-btn {
+    background-color: #C99C55;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    border: none;
+    /* width: 80%; */
+}
+
+.map-pragraph {
+    color: #C99C55;
+}
+
+
+/* .button {
     position: relative;
     background-color: #16142d;
     border: 1px solid #C99C55;
-    /* border: none; */
     border-radius: 75px;
-    font-size: 28px;
+    font-size: 18px;
     color: #FFFFFF;
     padding: 10px;
     width: 200px;
@@ -106,7 +125,7 @@ body {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-}
+} */
 
 .button:after {
     content: "";
@@ -132,7 +151,6 @@ input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-
     border: none;
     border-bottom: 2px solid #9a99a3;
     background-color: #16142C;
@@ -194,7 +212,7 @@ input[type=text] {
 
 .details-btn-bottom {
     background-color: #C99C55;
-    color: white;
+    color: rgb(15, 15, 15);
     border-radius: 25px;
     padding: 9px 25px;
     border: none;
@@ -232,6 +250,76 @@ input[type=text] {
     border: 1px solid #C99C55;
 }
 
+/* account part css start here  */
+.user-pra-content {
+    font-size: 14px;
+    color: #f1f1f1;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* review-part css start  */
+.review-part {
+    border: 1px solid #C99C55;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.review-part p {
+    color: #f1f1f1;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.review-place {
+    color: #f1f1f1;
+    /* padding: 10px; */
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* vehicle parthtml  start here  */
+.vehicle-heading h3 {
+    color: #C99C55;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.vehicle-heading p {
+    color: #f3f3f3;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.order-list {
+    color: #f1f1f1;
+    font-size: 12px;
+
+}
+
+.car-img {
+    border: 1px solid #C99C55;
+    border-radius: 5px;
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    transform: translate(y);
+    transition: .5s;
+}
+
+.car-img :hover {
+    background-color: #C99C55;
+    color: black;
+    transition: transform 1s;
+}
+
+.car-img h4 {
+    color: #C99C55;
+    text-align: center;
+    font-size: 14px;
+}
 
 
 
@@ -247,14 +335,9 @@ input[type=text] {
 
 
 
-
-
-
-
-
-
-
-
+.footer_part-fixed {
+    padding-top: 5px;
+}
 
 .footer_part {
     margin-top: 30px;

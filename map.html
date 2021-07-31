@@ -14,40 +14,44 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-       <!-- logo part html start here  -->
-       <div class="container">
-        <div class="row g-2">
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center  align-items-center">
-            <div class="p-3">
-              <img src="images/Circule-plus.png" class="img-fluid" alt="Responsive image">
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center  align-items-center">
-            <div class="p-3 ">
-               <p style="color: #C99C55;font-size: 40px;font-weight: bold;">Welcome</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center  align-items-center">
-            <div class="p-3">
-              <img src="images/logo-2.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-
-   </header> 
+<header> 
+   <!-- header part start here  -->
+   <div class="container py-4 fixed-top">
+    <div class="row ">
+    <div class="col">
+        <img src="images/Circule-plus.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col">
+        <p style="color:#C99C55;">Welcome</p>
+    </div>
+    <div class="col">
+        <img src="images/logo-2.png" class="img-fluid" alt="..." style="width: 50px; height: 54px;">
+    </div>
+    </div>
+  </div>
+</header> 
    <main>
        <!-- body content html start here  -->
-      <section class="container d-flex justify-content-center align-items-center">
+      <section class="container d-flex justify-content-center align-items-center py-4">
         <div class="img">
           <img src="images/Map-view.png" class="img-fluid" alt="Responsive image">
         </div>
       </section>
-      <section class="container py-4 d-flex justify-content-around col-sm-12">
-        <button class="button">One way</button>
-        By The Hour
+
+      <!-- one way part start here  -->
+      <section class="d-flex justify-content-center align-items-center">
+        <div class="container py-4">
+          <div class="row row-cols-2">
+            <div class="col">
+              <button class="map-one-way-btn">One way</button>
+            </div>
+            <div class="col map-pragraph">
+              <p> By The Hour</p>
+            </div>
+          </div>
+        </div>
       </section>
+
 
       <section class="container d-flex justify-content-center align-items-center">
         <form>
@@ -63,12 +67,24 @@
           <input type="text" id="lname" name="lname">
         </form>
       </section>
-      <section class="container">
-        <div class="d-flex justify-content-end py-4">
-          <a href="#"></a>
-          <button type="button" class=" Baron-btn-Continue ">Continue</button>
+      <!-- footer button start here  -->
+      <section class="">
+        <div class="container py-4 d-flex justify-content-end">
+          <div class="row">
+            <div class="col">
+              <a href="vehicle.html"><button class="map-one-way-btn">Continue</button></a>
+            </div>
+          </div>
         </div>
       </section>
+
+
+      <!-- <section class="container">
+        <div class="d-flex justify-content-end py-4">
+          <a href="rides.html">
+          <button type="button" class=" Baron-btn-Continue ">Continue</button></a>
+        </div>
+      </section> -->
       
     
      
